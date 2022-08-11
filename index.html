@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <script
+      src="https://kit.fontawesome.com/527048cca9.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>MediaDevices</title>
+  </head>
+  <body>
+    <section id="navbar-container">
+      <nav id="navbar">
+        <section id="start-camera">
+          <i class="fa-solid fa-camera"></i>
+        </section>
+        <section id="returnTo-Gallery">
+          <i class="fa-solid fa-border-all"></i>
+        </section>
+      </nav>
+    </section>
+
+    <section id="photo-booth">
+      <video src="" id="camera" autoplay></video>
+      <section id="take-picture">Ta kort</section>
+    </section>
+
+    <section id="picture-taken-container">
+      <section id="picture-taken">
+        <canvas id="picture"></canvas>
+      </section>
+      <section id="return-take-picture">ta kort</section>
+    </section>
+
+    <section id="gallery-contaier">
+      <section id="gallery"></section>
+    </section>
+
+    <section id="toast-container"></section>
+    <script src="index.js"></script>
+  </body>
+</html>
