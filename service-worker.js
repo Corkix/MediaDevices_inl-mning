@@ -16,6 +16,7 @@ self.addEventListener("activate", (event) => {
 
 self.addEventListener("fetch", async (event) => {
   console.log(event.request.url);
+  // Should this be !navigator.online
   if (navigator.online) {
     console.log("offline");
     event.respondWith(
